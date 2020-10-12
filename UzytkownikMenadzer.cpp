@@ -62,3 +62,8 @@ bool UzytkownikMenadzer::czyIstniejeLogin(string login)
      return false;
 }
 
+void UzytkownikMenadzer::wczytajUzytkownikowZPliku()
+{
+    uzytkownicy = plikZUzytkownikami.wczytajUzytkownikowZPliku();
+}
+

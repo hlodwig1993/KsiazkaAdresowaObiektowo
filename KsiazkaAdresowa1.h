@@ -11,8 +11,9 @@ using namespace std;
         UzytkownikMenadzer uzytkownikMenadzer;
 
 public:
-
+        KsiazkaAdresowa();
         void rejestracjaUzytkownika();
         void wypiszWszystkichUzytkownikow();
+
     };
 #endif
