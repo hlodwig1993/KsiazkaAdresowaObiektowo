@@ -1,22 +1,23 @@
 #ifndef UZYTKOWNIKMENADZER_H
 #define UZYTKOWNIKMENADZER_H
+
 #include <iostream>
 #include <vector>
-#include <windows.h>
-#include <fstream>
-#include <sstream>
 #include "Uzytkownik.h"
+#include <windows.h>
 #include "PlikZUzytkownikami.h"
-using namespace std;
 
+using namespace std;
 
 class UzytkownikMenadzer
 {
     int idZalogowanegoUzytkownika;
-    vector <Uzytkownik> uzytkownicy;
+
+    vector<Uzytkownik>uzytkownicy;
+
     PlikZUzytkownikami plikZUzytkownikami;
 
-    void podajDaneNowegoUzytkownika();
+    Uzytkownik podajDaneNowegoUzytkownika();
     int pobierzIdNowegoUzytkownika();
     bool czyIstniejeLogin(string login);
 
@@ -24,5 +25,9 @@ public:
     void rejestracjaUzytkownika();
     void wypiszWszystkichUzytkownikow();
     void wczytajUzytkownikowZPliku();
+
+
+
+
 };
 #endif

@@ -15,29 +15,20 @@ Uzytkownik UzytkownikMenadzer::podajDaneNowegoUzytkownika()
 {
     Uzytkownik uzytkownik;
 
-    uzytkownik.ustawId(pobierzIdNowegoUzytkownika());
+    uzytkownik.ustawID(pobierzIdNowegoUzytkownika());
     string login;
     do
     {
         cout << "Podaj login: ";
-        cin >>login;
+        cin>>login;
         uzytkownik.ustawLogin(login);
-    } while (czyIstniejeLogin(uzytkownik.pobierzLogin()) == true);
-
-    cout << "Podaj haslo: ";
-    string haslo;
-    cin>>haslo;
-    uzytkownik.ustawHaslo(haslo);
-
-    return uzytkownik;
-}
-
-void UzytkownikMenadzer::wypiszWszystkichUzytkownikow()
-{
-     for (int i = 0 ; i<uzytkownicy.size() ; i++)
-    {
-        cout<<uzytkownicy[i].pobierzId()<<endl<<uzytkownicy[i].pobierzLogin()<<endl<<uzytkownicy[i].pobierzHaslo();
     }
+    while (czyIstniejeLogin(uzytkownik.pobierzLogin()) == true);
+    string haslo;
+    cout << "Podaj haslo: ";
+    cin >> haslo;
+    uzytkownik.ustawHaslo(haslo);
+    return uzytkownik;
 }
 
 int UzytkownikMenadzer::pobierzIdNowegoUzytkownika()
@@ -45,22 +36,32 @@ int UzytkownikMenadzer::pobierzIdNowegoUzytkownika()
     if (uzytkownicy.empty() == true)
         return 1;
     else
-        return uzytkownicy.back().pobierzId() + 1;
+        return uzytkownicy.back().pobierzID() + 1;
 }
 
 bool UzytkownikMenadzer::czyIstniejeLogin(string login)
 {
-
-    for (int i = 0 ; i<uzytkownicy.size() ; i++)
+    for(int i = 0; i<uzytkownicy.size();i++)
     {
         if(uzytkownicy[i].pobierzLogin() == login)
-            {
+        {
             cout << endl << "Istnieje uzytkownik o takim loginie." << endl;
             return true;
         }
+
     }
-     return false;
+    return false;
+
 }
+
+void UzytkownikMenadzer::wypiszWszystkichUzytkownikow()
+{
+    for(int i = 0; i<uzytkownicy.size();i++)
+    {
+        cout<<uzytkownicy[i].pobierzID()<<"."<<uzytkownicy[i].pobierzLogin()<<"-"<<uzytkownicy[i].pobierzHaslo()<<endl;
+    }
+}
+
 
 void UzytkownikMenadzer::wczytajUzytkownikowZPliku()
 {
