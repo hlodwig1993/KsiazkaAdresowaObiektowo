@@ -1,4 +1,6 @@
-1|maslo|tak|
-2|arek|nie|
-1|tak|nie|
-2|nie|tak|
+1|dasdas|jjkhkj|
+2|j|j|
+3|darek|marek|
+4|warek|orek|
+5|tak|tak|
+6|nie|nie|
