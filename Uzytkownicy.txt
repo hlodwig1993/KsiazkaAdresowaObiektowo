@@ -1,2 +1,4 @@
 1|maslo|tak|
 2|arek|nie|
+1|darek|warek|
+2|o|cholera|
