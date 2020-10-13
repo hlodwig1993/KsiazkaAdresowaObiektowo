@@ -1,6 +1,9 @@
-1|dasdas|jjkhkj|
-2|j|j|
-3|darek|marek|
-4|warek|orek|
-5|tak|tak|
-6|nie|nie|
+1|j|nie|
+2|tak|tak|
+3|onie|tak|
+4|y|co|
+5|w|e|
+6|u|o|
+7|q|w|
+8|v|c|
+9|c|x|
