@@ -75,7 +75,7 @@ int UzytkownikMenadzer::logowanieUzytkownika()
     string login = "", haslo = "";
 
     cout << "Podaj login: ";
-    login = MetodyPomocnicze::wczytajLinie();
+    cin>>login ;
 
     for(int i= 0; i < uzytkownicy.size(); i++)
    {
@@ -103,5 +103,22 @@ int UzytkownikMenadzer::logowanieUzytkownika()
     cout << "Nie ma uzytkownika z takim loginem" << endl << endl;
     system("pause");
     return 0;
+}
+
+void UzytkownikMenadzer::zmianaHaslaZalogowanegoUzytkownika()
+{
+        for (int i = 0; i<uzytkownicy.size(); i++)
+        {
+            if(uzytkownicy[i].pobierzID() == idZalogowanegoUzytkownika)
+        {
+            string noweHaslo = "";
+            cout << "Podaj nowe haslo: ";
+            noweHaslo = MetodyPomocnicze::wczytajLinie();
+            uzytkownicy[i].ustawHaslo(noweHaslo);
+            cout << "Haslo zostalo zmienione." << endl << endl;
+            system("pause");
+        }
+    }
+    plikZUzytkownikami.zapiszWszystkichUzytkownikowDoPliku(uzytkownicy);
 }
 
