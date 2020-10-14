@@ -1,0 +1,4 @@
+1|2|Daniel||Bodurka|hlodwig4|nieznam|
+2|2|Darek|Warek|072312|321321|231312|
+3|2|Fajnie|Sie|bawie|z|programowaniem|
+4|2|Kolejny|Uzytkownik|teraz|probuje|ico|

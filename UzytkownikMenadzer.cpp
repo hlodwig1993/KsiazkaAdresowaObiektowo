@@ -63,11 +63,6 @@ void UzytkownikMenadzer::wypiszWszystkichUzytkownikow()
 }
 
 
-void UzytkownikMenadzer::wczytajUzytkownikowZPliku()
-{
-    uzytkownicy = plikZUzytkownikami.wczytajUzytkownikowZPliku();
-}
-
 
 int UzytkownikMenadzer::logowanieUzytkownika()
 {
@@ -122,3 +117,22 @@ void UzytkownikMenadzer::zmianaHaslaZalogowanegoUzytkownika()
     plikZUzytkownikami.zapiszWszystkichUzytkownikowDoPliku(uzytkownicy);
 }
 
+void UzytkownikMenadzer::wylogowanieUzytkownika()
+{   cout<<"Zaraz nastapi wylogowanie uzytkownika"<<endl;
+    system("pause");
+    idZalogowanegoUzytkownika = 0;
+}
+
+int UzytkownikMenadzer::pobierzIdZalogowanegoUzytkownika()
+{
+    return idZalogowanegoUzytkownika;
+}
+
+bool UzytkownikMenadzer::czyUzytkownikJestZalogowany()
+{
+    if(idZalogowanegoUzytkownika>0)
+        return true;
+        else
+            return false;
+
+}
