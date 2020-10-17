@@ -60,6 +60,7 @@ void UzytkownikMenadzer::wypiszWszystkichUzytkownikow()
     {
         cout<<uzytkownicy[i].pobierzID()<<"."<<uzytkownicy[i].pobierzLogin()<<"-"<<uzytkownicy[i].pobierzHaslo()<<endl;
     }
+    system("pause");
 }
 
 

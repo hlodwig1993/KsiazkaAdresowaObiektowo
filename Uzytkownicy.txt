@@ -1,4 +1,4 @@
-1|j|nie|
+1|j|j|
 2|tak|tak|
 3|onie|tak|
 4|y|co|
@@ -8,3 +8,7 @@
 8|v|c|
 9|c|x|
 10|marek|niewiem|
+11|daniel|bodurka|
+12|Daniel|Bodurka|
+13|Matka|tak|
+14|Mateusz|m|

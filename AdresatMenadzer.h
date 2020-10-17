@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <vector>
+#include <cstdio>
 #include "Adresat.h"
 #include "UzytkownikMenadzer.h"
 #include "PlikZAdresatami.h"
@@ -18,6 +19,8 @@ PlikZAdresatami plikZAdresatami;
 
 Adresat podajDaneNowegoAdresata();
 void wyswietlDaneAdresata(Adresat adresat);
+char wybierzOpcjeZMenuEdycja();
+void wyswietlIloscWyszukanychAdresatow(int iloscAdresatow);
 
 
 public:
@@ -28,6 +31,13 @@ public:
     };
     void dodajAdresata();
     void wyswietlWszystkichAdresatow();
+    int usunAdresata();
+    int pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami);
+    int podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(int idUsuwanegoAdresata, int idOstatniegoAdresata);
+    void edytujAdresata();
+    void zaktualizujDaneWybranegoAdresata(Adresat adresat);
+    void wyszukajAdresatowPoImieniu();
+    void wyszukajAdresatowPoNazwisku();
 
 };
 
