@@ -1,3 +1,6 @@
-1|11|Daniel||sda|da||
-2|11|Das|Da|sd|as|da|
-3|11|Da|D|a|da||
+1|1|Da|D|a|da||
+3|2|Da|D|a|da||
+4|2|Daniel||sda|da||
+5|1|Da|D|a|da||
+6|1|Da|D|a|da||
+7|1|Da|Da|da|da|d|

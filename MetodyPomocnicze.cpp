@@ -4,6 +4,7 @@ using namespace std;
 string MetodyPomocnicze::wczytajLinie()
 {
     string wejscie = "";
+    cin.sync(); cin.clear();
     getline(cin, wejscie);
     return wejscie;
 }

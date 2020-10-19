@@ -1,5 +1,5 @@
 1|j|j|
-2|tak|tak|
+2|t|t|
 3|onie|tak|
 4|y|co|
 5|w|e|
@@ -12,3 +12,4 @@
 12|Daniel|Bodurka|
 13|Matka|tak|
 14|Mateusz|m|
+15|wilk|z|

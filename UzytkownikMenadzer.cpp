@@ -71,7 +71,7 @@ int UzytkownikMenadzer::logowanieUzytkownika()
     string login = "", haslo = "";
 
     cout << "Podaj login: ";
-    cin>>login ;
+    login = MetodyPomocnicze::wczytajLinie();
 
     for(int i= 0; i < uzytkownicy.size(); i++)
    {

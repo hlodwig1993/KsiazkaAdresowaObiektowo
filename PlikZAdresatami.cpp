@@ -174,7 +174,6 @@ void PlikZAdresatami::usunWybranaLinieWPliku(int idAdresata)
     fstream odczytywanyPlikTekstowy, tymczasowyPlikTekstowy;
     string wczytanaLinia = "";
     int numerWczytanejLinii = 1;
-    int numerUsuwanejLinii = 1;
     bool czyIstniejeAdresat = false;
 
     odczytywanyPlikTekstowy.open(pobierzNazwePliku().c_str(), ios::in);
@@ -185,13 +184,13 @@ void PlikZAdresatami::usunWybranaLinieWPliku(int idAdresata)
         while (getline(odczytywanyPlikTekstowy, wczytanaLinia))
         {
             if (idAdresata == pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(wczytanaLinia)) {}
-            else if (numerWczytanejLinii == 1 && numerWczytanejLinii != numerUsuwanejLinii)
+            else if (numerWczytanejLinii == 1 && numerWczytanejLinii != idAdresata)
                 tymczasowyPlikTekstowy << wczytanaLinia;
-            else if (numerWczytanejLinii == 2 && numerUsuwanejLinii == 1)
+            else if (numerWczytanejLinii == 2 && idAdresata == 1)
                 tymczasowyPlikTekstowy << wczytanaLinia;
-            else if (numerWczytanejLinii > 2 && numerUsuwanejLinii == 1)
+            else if (numerWczytanejLinii > 2 && idAdresata== 1)
                 tymczasowyPlikTekstowy << endl << wczytanaLinia;
-            else if (numerWczytanejLinii > 1 && numerUsuwanejLinii != 1)
+            else if (numerWczytanejLinii > 1 && idAdresata!= 1)
                 tymczasowyPlikTekstowy << endl << wczytanaLinia;
             numerWczytanejLinii++;
         }
