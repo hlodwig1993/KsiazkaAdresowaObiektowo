@@ -142,7 +142,7 @@ bool PlikZAdresatami::dopiszAdresataDoPliku(Adresat adresat)
 
 int PlikZAdresatami::pobierzIdOstatniegoAdresata()
 {
-    return idOstatniegoAdresata;
+    return pobierzZPlikuIdOstatniegoAdresata();
 }
 
 int PlikZAdresatami::pobierzZPlikuIdOstatniegoAdresata()

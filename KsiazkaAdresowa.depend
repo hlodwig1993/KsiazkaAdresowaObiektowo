@@ -1,0 +1,273 @@
+# depslib dependency file v1.0
+1599679433 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa\uzytkownik.cpp
+	<iostream>
+	"Uzytkownik.h"
+
+1600105515 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa\ksiazkaadresowa1.cpp
+	<iostream>
+	"UzytkownikMenadzer.h"
+	"KsiazkaAdresowa1.h"
+
+1599766205 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa\uzytkownik.h
+	<iostream>
+
+1600106258 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa\main.cpp
+	<iostream>
+	"KsiazkaAdresowa1.h"
+
+1600105515 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa\ksiazkaadresowa1.h
+	"UzytkownikMenadzer.h"
+
+1599766205 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1599766205 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa\metodypomocnicze.h
+	<iostream>
+	<sstream>
+
+1600106125 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa\plikzuzytkownikami.cpp
+	<iostream>
+	"PlikZUzytkownikami.h"
+
+1600106619 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa\plikzuzytkownikami.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1600106110 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa\uzytkownikmenadzer.h
+	<iostream>
+	<vector>
+	"Uzytkownik.h"
+	<windows.h>
+	<fstream>
+	<sstream>
+	"PlikZUzytkownikami.h"
+
+1600106172 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa\uzytkownikmenadzer.cpp
+	<iostream>
+	"UzytkownikMenadzer.h"
+
+1600105515 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa — kopia\ksiazkaadresowa1.cpp
+	<iostream>
+	"UzytkownikMenadzer.h"
+	"KsiazkaAdresowa1.h"
+
+1600106110 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa — kopia\uzytkownikmenadzer.h
+	<iostream>
+	<vector>
+	"Uzytkownik.h"
+	<windows.h>
+	<fstream>
+	<sstream>
+	"PlikZUzytkownikami.h"
+
+1599766205 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa — kopia\uzytkownik.h
+	<iostream>
+
+1600106619 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa — kopia\plikzuzytkownikami.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1599766205 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa — kopia\metodypomocnicze.h
+	<iostream>
+	<sstream>
+
+1600105515 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa — kopia\ksiazkaadresowa1.h
+	"UzytkownikMenadzer.h"
+
+1600106595 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa — kopia\main.cpp
+	<iostream>
+	"KsiazkaAdresowa1.h"
+
+1599766205 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa — kopia\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1600106619 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa — kopia\plikzuzytkownikami.cpp
+	<iostream>
+	"PlikZUzytkownikami.h"
+
+1599679433 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa — kopia\uzytkownik.cpp
+	<iostream>
+	"Uzytkownik.h"
+
+1600106595 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowa\ksiazkaadresowa — kopia\uzytkownikmenadzer.cpp
+	<iostream>
+	"UzytkownikMenadzer.h"
+
+1602933011 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\ksiazkaadresowa1.cpp
+	"KsiazkaAdresowa1.h"
+
+1602772173 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\uzytkownikmenadzer.h
+	<iostream>
+	<vector>
+	"Uzytkownik.h"
+	<windows.h>
+	"PlikZUzytkownikami.h"
+	"MetodyPomocnicze.h"
+
+1602521377 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\uzytkownik.h
+	<iostream>
+
+1602933011 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\ksiazkaadresowa1.h
+	"UzytkownikMenadzer.h"
+	"AdresatMenadzer.h"
+
+1602933011 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\main.cpp
+	<iostream>
+	"KsiazkaAdresowa1.h"
+	"AdresatMenadzer.h"
+
+1603131869 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1602933011 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<algorithm>
+
+1602933011 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1602933011 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\plikzuzytkownikami.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+
+1602521377 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1603131869 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\uzytkownikmenadzer.cpp
+	"UzytkownikMenadzer.h"
+
+1602682853 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\adresat.cpp
+	"Adresat.h"
+
+1602933011 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\adresatmenadzer.h
+	<iostream>
+	<vector>
+	<cstdio>
+	"Adresat.h"
+	"UzytkownikMenadzer.h"
+	"PlikZAdresatami.h"
+
+1602682853 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\adresat.h
+	<iostream>
+
+1602933011 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\plikzadresatami.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+	"Adresat.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+
+1602933011 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\adresatmenadzer.cpp
+	"AdresatMenadzer.h"
+
+1603209781 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
+1602682853 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\adresat.cpp
+	"Adresat.h"
+
+1602682853 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\adresat.h
+	<iostream>
+
+1602763928 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\adresatmenadzer.cpp
+	"AdresatMenadzer.h"
+
+1602772173 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\adresatmenadzer.h
+	<iostream>
+	<vector>
+	<cstdio>
+	"Adresat.h"
+	"UzytkownikMenadzer.h"
+	"PlikZAdresatami.h"
+
+1602772173 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\uzytkownikmenadzer.h
+	<iostream>
+	<vector>
+	"Uzytkownik.h"
+	<windows.h>
+	"PlikZUzytkownikami.h"
+	"MetodyPomocnicze.h"
+
+1602521377 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\uzytkownik.h
+	<iostream>
+
+1602930631 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\plikzuzytkownikami.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+
+1602698859 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<algorithm>
+
+1602772173 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\plikzadresatami.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+	"Adresat.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+
+1602763984 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\ksiazkaadresowa1.cpp
+	"KsiazkaAdresowa1.h"
+
+1602772261 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\ksiazkaadresowa1.h
+	"UzytkownikMenadzer.h"
+	"AdresatMenadzer.h"
+
+1602930507 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\main.cpp
+	<iostream>
+	"KsiazkaAdresowa1.h"
+	"AdresatMenadzer.h"
+
+1602698976 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1602772219 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
+1602771672 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1602521377 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1602696418 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\uzytkownikmenadzer.cpp
+	"UzytkownikMenadzer.h"
+
+1602770021 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\pliktekstowy.cpp
+	"PlikTekstowy.h"
+
+1602771623 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa — kopia\pliktekstowy.h
+	<iostream>
+	<fstream>
+
+1602933011 e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\pliktekstowy.h
+	<iostream>
+	<fstream>
+
+1602933011 source:e:\kurs c++ projekty\c++ obiektowo\ksiazkaadresowaa\ksiazkaadresowa\pliktekstowy.cpp
+	"PlikTekstowy.h"
+
